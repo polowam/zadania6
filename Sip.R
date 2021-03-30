@@ -15,15 +15,18 @@ horoskop = function(imie, miesiac){
     paste("Osoba o imieniu", imie, "bedzie miała jutro nieszczescie")
   else if(pier_lit == "m")
     paste("Osoba o imieniu", imie, "bedzie miała jutro nieszczescie")
+  else if(pier_lit == "M")
+    paste("Osoba o imieniu", imie, "bedzie miała jutro nieszczescie")
   else if(pier_lit == "z")
     paste("Osoba o imieniu", imie, "bedzie miała jutro nieszczescie")
   else if(pier_lit == "Z")
-    paste("Osoba o imieniu", imie, "bedzie miała jutro nieszczescie")
-  else if(pier_lit == "M")
     paste("Osoba o imieniu", imie, "bedzie miała jutro nieszczescie")
   else if(miesiac %in% parzysta)
     paste("Osoba o imieniu", imie, "bedzie miala jutro szczeście" )
   else if(miesiac %in% nieparzysta)
     paste("Osoba o imieniu", imie, "bedzie miała jutro nieszczescie")
-    }
+}
+#Zadanie 4
+
+#Zadanie 5
 
