@@ -2,7 +2,7 @@
 tekst = "TERYT 22; pomorskie;   Gdańsk; 12 C ; B"
 symbol = str_sub(tekst, start = -5, end = -4)
 pierwiastek = str_trim(symbol)
-#Zadanie 2
+#Zadanie 2 i 3
 install.packages("stringr")
 library("stringr")
 horoskop = function(imie, miesiac){
