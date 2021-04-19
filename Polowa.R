@@ -35,3 +35,9 @@ daty = str_replace_all(tekst_2, pattern = "[\\/|.]", replacement = "\\-)
 str_extract_all(tekst_2, pattern = "[0=9]+[\\-][a-z0-9]+[\\-][0-9]*")
 
 
+#5
+tekst_2 = "2019-03-11: 23.5, 19/03/12: 12.7, 2019.03.13: 11.1, 2019-marzec-14: 14.3"
+ wartosci = str_extract_all(tekst_2, pattern = "[0-9]+[\\.][0-9]*)
+
+
+
